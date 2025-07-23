@@ -2,7 +2,7 @@
 using namespace std;
 
 void bubble_sort(int arr[], int n) {
-    // bubble sort
+    // bubble sort: opposite of selection sort, just take maximums and use adjacent swapping to bring them to the end
     for (int i = n - 1; i >= 0; i--) {
         int didSwap = 0;
         //if didSwap remains 0, it means no big number comes before a small number , it is already sorted, saves time complexity
